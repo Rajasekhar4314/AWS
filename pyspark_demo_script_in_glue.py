@@ -37,10 +37,24 @@ df2.show()
       "Sid": "GetTables",
       "Effect": "Allow",
       "Action": [
+        "glue:CreateTable",
         "glue:GetTable",
-        "glue:GetTables",
-        "glue:GetDatabase",
-        "glue:GetDataBases"          
+        "glue:GetTables",                
+        "glue:UpdateTable",
+        "glue:DeleteTable",
+        "glue:BatchDeleteTable",
+        "glue:GetTableVersion",
+        "glue:GetTableVersions",
+        "glue:DeleteTableVersion",
+        "glue:BatchDeleteTableVersion",
+        "glue:CreatePartition",
+        "glue:BatchCreatePartition",
+        "glue:GetPartition",
+        "glue:GetPartitions",
+        "glue:BatchGetPartition",
+        "glue:UpdatePartition",
+        "glue:DeletePartition",
+        "glue:BatchDeletePartition"        
       ],
       "Resource": "*"
     }
