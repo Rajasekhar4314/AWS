@@ -37,3 +37,9 @@ job.commit()
 #job = Job(glueContext)
 #job.init(args['JOB_NAME'], args)
 #job.commit()
+
+
+## for connecting Eventbridgw with cloudwatch
+
+CloudWatchEventsBuiltInTargetExecutionAccess
+CloudWatchEventsInvocationAccess
